@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery | Trade & Go</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <a href="index.html" class="flex items-center py-4 px-2">
+                        <span class="font-semibold text-gray-500 text-lg">Trade & Go</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="index.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Home</a>
+                    <a href="trade.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Trade</a>
+                    <a href="food.html" class="py-4 px-2 text-blue-500 border-b-4 border-blue-500 font-semibold">Food</a>
+                    <a href="rides.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Rides</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Food Menu -->
+            <div class="md:col-span-2">
+                <h1 class="text-2xl font-bold mb-6 text-gray-800">Food Delivery</h1>
+                
+                <div class="mb-6">
+                    <div class="relative">
+                        <input type="text" placeholder="Search for restaurants or dishes..." class="w-full px-4 py-3 pl-10 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <i class="fas fa-search absolute left-3 top-4 text-gray-400"></i>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <!-- Food Item 1 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                        <div class="h-40 bg-cover bg-center" style="background-image: url('https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"></div>
+                        <div class="p-4">
+                            <h3 class="font-semibold text-lg mb-1">Pancake Stack</h3>
+                            <p class="text-gray-600 text-sm mb-2">Fluffy pancakes with maple syrup and berries</p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-gray-800">$8.99</span>
+                                <button class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm hover:bg-blue-600 transition duration-300">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Food Item 2 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                        <div class="h-40 bg-cover bg-center" style="background-image: url('https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"></div>
+                        <div class="p-4">
+                            <h3 class="font-semibold text-lg mb-1">Burger Combo</h3>
+                            <p class="text-gray-600 text-sm mb-2">Juicy beef burger with fries and drink</p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-gray-800">$12.99</span>
+                                <button class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm hover:bg-blue-600 transition duration-300">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Food Item 3 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                        <div class="h-40 bg-cover bg-center" style="background-image: url('https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"></div>
+                        <div class="p-4">
+                            <h3 class="font-semibold text-lg mb-1">Pasta Carbonara</h3>
+                            <p class="text-gray-600 text-sm mb-2">Classic Italian pasta with creamy sauce</p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-gray-800">$10.99</span>
+                                <button class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm hover:bg-blue-600 transition duration-300">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Food Item 4 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                        <div class="h-40 bg-cover bg-center" style="background-image: url('https://images.pexels.com/photos/1352270/pexels-photo-1352270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"></div>
+                        <div class="p-4">
+                            <h3 class="font-semibold text-lg mb-1">Caesar Salad</h3>
+                            <p class="text-gray-600 text-sm mb-2">Fresh romaine lettuce with croutons and dressing</p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-gray-800">$7.99</span>
+                                <button class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm hover:bg-blue-600 transition duration-300">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cart Section -->
+            <div class="bg-white p-6 rounded-lg shadow-md sticky top-4">
+                <h2 class="text-xl font-semibold mb-4 text-gray-800">Your Order</h2>
+                
+                <div class="space-y-4 mb-6">
+                    <div class="flex justify-between items-center border-b pb-2">
+                        <div>
+                            <h4 class="font-medium">Pancake Stack</h4>
+                            <div class="flex items-center mt-1">
+                                <button class="text-gray-500 hover:text-blue-500">
+                                    <i class="fas fa-minus-circle"></i>
+                                </button>
+                                <span class="mx-2">1</span>
+                                <button class="text-gray-500 hover:text-blue-500">
+                                    <i class="fas fa-plus-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <span class="font-semibold">$8.99</span>
+                    </div>
+
+                    <div class="flex justify-between items-center border-b pb-2">
+                        <div>
+                            <h4 class="font-medium">Burger Combo</h4>
+                            <div class="flex items-center mt-1">
+                                <button class="text-gray-500 hover:text-blue-500">
+                                    <i class="fas fa-minus-circle"></i>
+                                </button>
+                                <span class="mx-2">1</span>
+                                <button class="text-gray-500 hover:text-blue-500">
+                                    <i class="fas fa-plus-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <span class="font-semibold">$12.99</span>
+                    </div>
+                </div>
+
+                <div class="border-t pt-4">
+                    <div class="flex justify-between mb-2">
+                        <span>Subtotal</span>
+                        <span>$21.98</span>
+                    </div>
+                    <div class="flex justify-between mb-2">
+                        <span>Delivery Fee</span>
+                        <span>$2.99</span>
+                    </div>
+                    <div class="flex justify-between font-bold text-lg">
+                        <span>Total</span>
+                        <span>$24.97</span>
+                    </div>
+                </div>
+
+                <button class="w-full bg-green-500 text-white py-3 px-4 rounded-lg font-semibold mt-6 hover:bg-green-600 transition duration-300">
+                    Proceed to Checkout
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

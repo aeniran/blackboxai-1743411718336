@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade & Go - All-in-One Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <a href="#" class="flex items-center py-4 px-2">
+                        <span class="font-semibold text-gray-500 text-lg">Trade & Go</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="index.html" class="py-4 px-2 text-blue-500 border-b-4 border-blue-500 font-semibold">Home</a>
+                    <a href="trade.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Trade</a>
+                    <a href="food.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Food</a>
+                    <a href="rides.html" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Rides</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="bg-gradient-to-r from-blue-500 to-purple-500 text-white py-20 px-4 rounded-lg shadow-lg mb-12">
+            <div class="max-w-3xl mx-auto text-center">
+                <h1 class="text-4xl font-bold mb-4">Welcome to Trade & Go</h1>
+                <p class="text-xl mb-8">Your all-in-one platform for trading, food delivery, and ride services</p>
+                <button class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300">Get Started</button>
+            </div>
+        </section>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                <div class="text-blue-500 mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                    </svg>
+                </div>
+                <h2 class="text-xl font-semibold mb-2">Trading Platform</h2>
+                <p class="text-gray-600">Buy and sell assets with our easy-to-use trading interface.</p>
+                <a href="trade.html" class="mt-4 inline-block text-blue-500 hover:text-blue-700 font-medium">Start Trading →</a>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                <div class="text-green-500 mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                </div>
+                <h2 class="text-xl font-semibold mb-2">Food Delivery</h2>
+                <p class="text-gray-600">Order from your favorite restaurants with just a few clicks.</p>
+                <a href="food.html" class="mt-4 inline-block text-green-500 hover:text-green-700 font-medium">Order Food →</a>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                <div class="text-purple-500 mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                    </svg>
+                </div>
+                <h2 class="text-xl font-semibold mb-2">Ride Services</h2>
+                <p class="text-gray-600">Book rides quickly and get to your destination safely.</p>
+                <a href="rides.html" class="mt-4 inline-block text-purple-500 hover:text-purple-700 font-medium">Book a Ride →</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8 mt-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-xl font-semibold mb-4">Trade & Go</h3>
+                    <p class="text-gray-400">Your all-in-one platform for trading, food, and rides.</p>
+                </div>
+                <div class="grid grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Services</h4>
+                        <ul class="space-y-2">
+                            <li><a href="trade.html" class="text-gray-400 hover:text-white">Trading</a></li>
+                            <li><a href="food.html" class="text-gray-400 hover:text-white">Food Delivery</a></li>
+                            <li><a href="rides.html" class="text-gray-400 hover:text-white">Ride Services</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Company</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Contact</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2023 Trade & Go. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
